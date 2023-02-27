@@ -122,8 +122,7 @@ class _LoginPageState extends State<LoginPage> {
             "appname": "Crypto Payment",
             "acknowledgement":
                 "I acknowledge that this app is just a POC and prone to various bugs",
-            "github":
-                "https://github.com/BhaskarDutta2209/CryptoPayment"
+            "github": "https://github.com/BhaskarDutta2209/CryptoPayment"
           }
         };
         var signature = await provider.signTypeData(
